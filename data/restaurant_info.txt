@@ -1,0 +1,41 @@
+Restaurant Name: Spice Garden Lahore
+Location: 24-B, MM Alam Road, Gulberg III, Lahore
+Phone: 0300-1234567
+Opening Hours: 12:00 PM - 12:00 AM (Mon-Sun)
+
+MENU - STARTERS
+- Chicken Tikka: Rs. 850 (half), Rs. 1500 (full)
+- Seekh Kebab: Rs. 750 (6 pieces)
+- Crispy Calamari: Rs. 950
+
+MENU - MAINS
+- Lahori Karahi (Chicken): Rs. 1800
+- Mutton Handi: Rs. 2200
+- Grilled Fish: Rs. 1650
+- Vegetable Biryani: Rs. 950
+
+MENU - DEALS
+- Family Deal (serves 4): 1 Karahi + 2 Naan + Raita + Drinks = Rs. 3500
+- Lunch Special (12-4 PM): Any main + drink = Rs. 1200
+
+RESERVATION POLICY
+We accept reservations for groups of 4 or more.
+Call or WhatsApp 0300-1234567 to reserve.
+Walk-ins welcome for tables of 1-3.
+
+PARKING
+Free parking available for up to 50 cars.
+Valet service available on weekends.
+
+FREQUENTLY ASKED QUESTIONS
+Q: Do you offer home delivery?
+A: Yes, we deliver within 5km radius via our own riders. Minimum order Rs. 1000.
+
+Q: Is the food halal?
+A: Yes, 100% halal certified.
+
+Q: Do you have a kids menu?
+A: Yes, kids meals available from Rs. 550.
+
+Q: Can I host a birthday party?
+A: Yes, we have a private dining room for up to 30 guests. Contact us to book.
