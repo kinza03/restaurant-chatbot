@@ -1,5 +1,7 @@
 import streamlit as st
+import os
 from chatbot import load_chain
+from ingest import ingest_data
 
 st.set_page_config(
     page_title="Spice Garden Lahore",
@@ -26,6 +28,11 @@ st.markdown("""
 st.markdown('<div class="restaurant-name">Spice Garden Lahore</div>', unsafe_allow_html=True)
 st.markdown('<div class="restaurant-tagline">Ask me anything — menu, deals, reservations, hours</div>', unsafe_allow_html=True)
 st.markdown("---")
+
+# Build knowledge base if it doesn't exist
+if not os.path.exists("chroma_db"):
+    with st.spinner("Setting up knowledge base..."):
+        ingest_data()
 
 if "chain" not in st.session_state:
     with st.spinner("Loading..."):
