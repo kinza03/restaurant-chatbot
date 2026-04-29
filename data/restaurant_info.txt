@@ -1,3 +1,15 @@
+MENU PRICES:
+Chicken Tikka Half: Rs. 850
+Chicken Tikka Full: Rs. 1500
+Seekh Kebab: Rs. 750
+Crispy Calamari: Rs. 950
+Lahori Karahi Chicken: Rs. 1800
+Mutton Handi: Rs. 2200
+Grilled Fish: Rs. 1650
+Vegetable Biryani: Rs. 950
+Family Deal: Rs. 3500
+Lunch Special: Rs. 1200
+
 Restaurant Name: Spice Garden Lahore
 Location: 24-B, MM Alam Road, Gulberg III, Lahore
 Phone: 0300-1234567
