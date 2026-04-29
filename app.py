@@ -40,7 +40,7 @@ if "chain" not in st.session_state:
 
 if "messages" not in st.session_state:
     st.session_state.messages = [
-        {"role": "assistant", "content": "Assalam o Alaikum! Welcome to Spice Garden Lahore. I can help you with our menu, deals, reservations, and more. What would you like to know?"}
+        {"role": "assistant", "content": "Assalam o Alaikum! Welcome to Spice Garden Lahore 🍽️\n\nI can help you check menu items, today's deals, delivery info, or book a table instantly.\nWhat would you like to know today?"}
     ]
 
 for msg in st.session_state.messages:
