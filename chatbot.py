@@ -1,8 +1,8 @@
-from langchain_community.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
+from langchain_pinecone import PineconeVectorStore
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -10,9 +10,9 @@ load_dotenv()
 def load_chain():
     embeddings = OpenAIEmbeddings()
     
-    vectorstore = Chroma(
-        persist_directory="./chroma_db",
-        embedding_function=embeddings
+    vectorstore = PineconeVectorStore(
+        index_name="restaurant-chatbot",
+        embedding=embeddings
     )
     
     retriever = vectorstore.as_retriever(

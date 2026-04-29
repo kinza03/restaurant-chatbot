@@ -1,7 +1,7 @@
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings
+from langchain_pinecone import PineconeVectorStore
 from dotenv import load_dotenv
 import os
 
@@ -20,15 +20,16 @@ def ingest_data():
     chunks = splitter.split_documents(documents)
     print(f"Created {len(chunks)} chunks")
 
-    print("Creating embeddings and storing in ChromaDB...")
+    print("Creating embeddings and storing in Pinecone...")
     embeddings = OpenAIEmbeddings()
-    vectorstore = Chroma.from_documents(
+    
+    vectorstore = PineconeVectorStore.from_documents(
         documents=chunks,
         embedding=embeddings,
-        persist_directory="./chroma_db"
+        index_name="restaurant-chatbot"
     )
-    vectorstore.persist()
-    print("Done! Vector store saved.")
+    
+    print("Done! Data stored in Pinecone.")
 
 if __name__ == "__main__":
     ingest_data()

@@ -3,7 +3,8 @@ langchain-community
 langchain-openai
 langchain-core
 langchain-text-splitters
-chromadb
+langchain-pinecone
+pinecone-client
 streamlit
 python-dotenv
 openai
