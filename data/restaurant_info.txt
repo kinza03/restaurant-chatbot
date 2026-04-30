@@ -4,24 +4,20 @@ Location: 24-B, MM Alam Road, Gulberg III, Lahore
 Phone: 0300-1234567
 Opening Hours: 12:00 PM - 12:00 AM (Mon-Sun)
 
-COMPLETE MENU WITH PRICES
+MENU - STARTERS
+Chicken Tikka: Rs. 850 (half), Rs. 1500 (full)
+Seekh Kebab: Rs. 750 (6 pieces)
+Crispy Calamari: Rs. 950
 
-Starters:
-- Chicken Tikka: Rs. 850 (half), Rs. 1500 (full)
-- Seekh Kebab: Rs. 750 (6 pieces)
-- Crispy Calamari: Rs. 950
+MENU - MAIN COURSE
+Lahori Karahi (Chicken): Rs. 1800
+Mutton Handi: Rs. 2200
+Grilled Fish: Rs. 1650
+Vegetable Biryani: Rs. 950
 
-Main Course:
-- Lahori Karahi (Chicken): Rs. 1800
-- Mutton Handi: Rs. 2200
-- Grilled Fish: Rs. 1650
-- Vegetable Biryani: Rs. 950
-
-Deals:
-- Family Deal (serves 4): 1 Karahi + 2 Naan + Raita + Drinks = Rs. 3500
-- Lunch Special (12-4 PM): Any main + drink = Rs. 1200
-
-All dishes available: Chicken Tikka, Seekh Kebab, Crispy Calamari, Lahori Karahi, Mutton Handi, Grilled Fish, Vegetable Biryani, Family Deal, Lunch Special.
+MENU - DEALS
+Family Deal (serves 4): 1 Karahi + 2 Naan + Raita + Drinks = Rs. 3500
+Lunch Special (12-4 PM): Any main + drink = Rs. 1200
 
 RESERVATION POLICY
 We accept reservations for groups of 4 or more.
