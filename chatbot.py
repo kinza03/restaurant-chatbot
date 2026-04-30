@@ -17,7 +17,7 @@ def load_chain():
     
     retriever = vectorstore.as_retriever(
         search_type="similarity",
-        search_kwargs={"k": 3}
+        search_kwargs={"k": 5}
     )
     
     llm = ChatOpenAI(
@@ -27,10 +27,12 @@ def load_chain():
 
     prompt = ChatPromptTemplate.from_template("""You are a helpful and friendly assistant for Spice Garden Lahore restaurant.
 Answer questions only based on the context provided below.
-If you don't know something, politely say you're not sure and suggest they call 0300-1234567.
+If you don't know something, politely say you are not sure and suggest they contact the restaurant.
+When responding in Urdu script write the number as 0300-1234567 with Urdu text alignment
+When responding in English or Roman Urdu write it as 0300-1234567
 Always be warm and professional.
 Keep answers concise.
-IMPORTANT: Always respond in the same language the user is writing in. If they write in Urdu, respond in Urdu. If they write in Roman Urdu, respond in Roman Urdu. If they write in English, respond in English. Match the user's language exactly.
+IMPORTANT: Always respond in the same language and script the user is writing in. If they write in Urdu script respond fully in Urdu script. If they write in Roman Urdu respond in Roman Urdu. If they write in English respond in English. Never mix languages in your response. Dish names can remain in English as they are proper nouns.
 
 Context: {context}
 
